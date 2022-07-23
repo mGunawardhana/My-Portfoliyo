@@ -50,3 +50,15 @@ header .logo span{
     color:#222222;
 }
 
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color:#222222;
+    margin:3rem 0;
+}
+
+header .navbar a:hover{
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    color:var(--main-color);
+}
