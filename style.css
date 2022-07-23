@@ -1,12 +1,9 @@
-/*
- *
- *  * Developed by - mGunawardhana
- *  * Contact email - mrgunawardhana27368@gmail.com
- *  * what's app - 071 - 9043372
- *
- */
+:root{
+    --main-color:#A149FA;
+}
 
- html{
+
+html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -35,9 +32,22 @@ section{
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .1s linear;
     line-height: 1;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; bottom:0;
+    background:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding:8rem 2rem;
+    width:30rem;
+    text-align: center;
 }
 
 header .logo{
@@ -61,4 +71,100 @@ header .navbar a:hover{
     font-weight: bolder;
     letter-spacing: .2rem;
     color:var(--main-color);
+}
+
+header .follow a{
+    font-size: 2.5rem;
+    color:#fff;
+    margin:0 .7rem;
+}
+
+header .follow a:hover{
+    color:var(--main-color);
+}
+
+#menu-bars{
+    position: fixed;
+    top:7rem; right: 0rem;
+    z-index: 10000;
+    background:var(--main-color);
+    color:#222222;
+    border-radius: .5rem;
+    padding:1rem 1.5rem;
+    font-size: 3rem;
+    cursor:pointer;
+    display: none;
+}
+
+.cursor-1{
+    position: absolute;
+    top:0; left:0;
+    height:1rem; width:1rem;
+    background: var(--main-color);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.cursor-1.active{
+    height:7rem;
+    width:7rem;
+    opacity: .3;
+}
+
+.cursor-2{
+    position: absolute;
+    top:0; left:0;
+    height:4rem; width:4rem;
+    border:.1rem solid var(--main-color);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+    transition: .3s linear;
+}
+
+.cursor-2.active{
+    display: none;
+}
+
+.home .content{
+    flex:1 1 40rem;
+}
+
+.home .image{
+    flex:1 1 40rem;
+}
+
+.home .image img{
+    width:50%;
+}
+
+
+.home .content .hi{
+    font-size: 2rem;
+    color:var(--main-color);
+}
+
+.home .content h3{
+    font-size: 4.5rem;
+    color:#111;
+    text-transform: uppercase;
+}
+
+.home .content h3 span{
+    color:var(--main-color);
+}
+
+.home .content .info{
+    font-size: 2.5rem;
+    color:#111;
+    padding:.5rem 0;
+}
+
+.home .content .text{
+    font-size: 1.7rem;
+    color:#666;
+    padding:.5rem 0;
 }
