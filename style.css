@@ -16,3 +16,37 @@ body{
     background: #ffffff;
     padding-left: 30rem;
 }
+
+section{
+    padding:1rem 5%;
+    min-height: 100vh;
+}
+
+.heading{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    color:#111;
+    text-transform: uppercase;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s linear;
+    line-height: 1;
+}
+
+header .logo{
+    font-weight: bolder;
+    color:#A149FA;
+    font-size: 3rem;
+}
+
+header .logo span{
+    color:#222222;
+}
+
