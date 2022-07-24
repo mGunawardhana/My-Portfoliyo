@@ -152,6 +152,9 @@ header .follow a:hover {
     flex: 1 1 40rem;
 }
 
+img {
+    border-radius: 50%;
+  }
 .home .image img {
     width: 50%;
 }
