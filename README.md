@@ -2,7 +2,7 @@
 
 ![Screenshot (1042)](https://user-images.githubusercontent.com/100486080/180643023-2eb94135-d586-423a-94af-2d27cd16f622.png)
 
-<br><br>
+<br>
 
 🤟 GitHub URL - https://github.com/mGunawardhana <br><br>
 🤟 GitHub Page URL - https://mgunawardhana.github.io/My-Portfoliyo/ <br><br>
