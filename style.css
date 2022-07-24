@@ -10,6 +10,17 @@
     --main-color: #A149FA;
 }
 
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .1s linear;
+    line-height: 1;
+}
 
 html {
     font-size: 62.5%;
@@ -34,17 +45,7 @@ section {
     text-transform: uppercase;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .1s linear;
-    line-height: 1;
-}
+
 
 header {
     position: fixed;
@@ -109,12 +110,10 @@ header .follow a:hover {
     display: none;
 }
 
-.cursor-1 {
+.cursor-1{
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 1rem;
-    width: 1rem;
+    top:0; left:0;
+    height:1rem; width:1rem;
     background: var(--main-color);
     pointer-events: none;
     transform: translate(-50%, -50%);
@@ -122,19 +121,18 @@ header .follow a:hover {
     z-index: 10000;
 }
 
-.cursor-1.active {
-    height: 7rem;
-    width: 7rem;
+.cursor-1.active{
+    height:7rem;
+    width:7rem;
     opacity: .3;
 }
 
-.cursor-2 {
+
+.cursor-2{
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 4rem;
-    width: 4rem;
-    border: .1rem solid var(--main-color);
+    top:0; left:0;
+    height:4rem; width:4rem;
+    border:.1rem solid var(--main-color);
     pointer-events: none;
     transform: translate(-50%, -50%);
     border-radius: 50%;
@@ -142,7 +140,7 @@ header .follow a:hover {
     transition: .3s linear;
 }
 
-.cursor-2.active {
+.cursor-2.active{
     display: none;
 }
 
@@ -186,4 +184,45 @@ header .follow a:hover {
     font-size: 1.7rem;
     color: #666;
     padding: .5rem 0;
+}
+
+/* -------------------------------------------------------------------------- */
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    background:var(--main-color);
+    color:#fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    body{
+        padding: 0;
+    }
+
+    #menu-bars{
+        display: initial;
+    }
+
+    header{
+        left:-120%;
+    }
+
+    header.active{
+        left:0%;
+    }
+
+    .cursor-1,
+    .cursor-2{
+        display: none;
+    }
+
 }
