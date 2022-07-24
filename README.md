@@ -1,10 +1,9 @@
 # My-Portfoliyo
 
-
-![Screenshot (1038)](https://user-images.githubusercontent.com/100486080/180619014-e64e63c5-3e28-427e-8998-0d6347a6e62d.png)
-
+![Screenshot (1042)](https://user-images.githubusercontent.com/100486080/180643023-2eb94135-d586-423a-94af-2d27cd16f622.png)
 
 <br><br>
+
 🤟 GitHub URL - https://github.com/mGunawardhana <br><br>
 🤟 GitHub Page URL - https://mgunawardhana.github.io/My-Portfoliyo/ <br><br>
 🤟 000WebHost URL - http://maneegunawardhana.epizy.com/ <br><br>
